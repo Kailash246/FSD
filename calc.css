@@ -1,0 +1,46 @@
+body {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);;
+}
+
+h1,h2 {
+    margin: 10px;
+    text-align: center;
+}
+
+
+.parent{
+    background-color: gainsboro;
+    width : 40%;
+    height :auto; 
+    display: grid;
+    gap : 0.5%;
+    grid-template-columns: auto auto auto auto;
+    border-radius: 10px;
+    align-self: center;
+    padding: 10px;
+    width: 40%;
+    justify-self: center;
+}
+
+div{
+    background-color: gainsboro;
+    text-align: center;
+    border: 1px solid black;
+    font-size: 30px;
+}
+
+.v2 {
+    border-radius: 20px;
+}
+div {
+    border-radius: 20px;
+    padding: 50px;
+    margin: 5px;
+    background-color: #f1f1f1;
+    transition: all 0.3s ease;
+}
+
+div:hover {
+    background-color: rgb(13, 153, 214);
+}
