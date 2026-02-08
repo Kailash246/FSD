@@ -1,0 +1,167 @@
+<html>
+
+<head>
+
+<title>Facebook</title>
+
+<style>
+
+body{
+
+ margin:0;
+
+ height:100vh;
+
+ display:flex;
+
+justify-content:center;
+
+ align-items:center;
+
+ background:#f0f2f5;
+
+font-family:Arial;
+
+}
+
+.main{
+
+ width:900px;
+
+ display:flex;
+
+justify-content:space-between;
+
+}
+
+.left{
+
+ width:500px;
+
+}
+
+.left h1{
+
+color:#1877f2;
+
+font-size:60px;
+
+ margin:0;
+
+}
+
+.left p{
+
+font-size:26px;
+
+}
+
+.box{
+
+ width:360px;
+
+ background:white;
+
+ padding:20px;
+
+ border-radius:8px;
+
+ box-shadow:0 0 10px #ccc;
+
+text-align:center;
+
+}
+
+input{
+
+ width:100%;
+
+ padding:14px;
+
+ margin-bottom:12px;
+
+ border:1px solid #ccc;
+
+}
+
+.login{
+
+ width:100%;
+
+ padding:12px;
+
+ background:#1877f2;
+
+color:white;
+
+ border:none;
+
+font-size:18px;
+
+}
+
+.create{
+
+ background:#42b72a;
+
+color:white;
+
+ border:none;
+
+ padding:12px;
+
+ margin-top:10px;
+
+}
+
+a{
+
+ display:block;
+
+ margin:15px 0;
+
+color:#1877f2;
+
+text-decoration:none;
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="main">
+
+ <div class="left">
+
+<h1>facebook</h1>
+
+<p>Facebook helps you connect and share with people.</p>
+
+ </div>
+
+ <div class="box">
+
+<input type="text" placeholder="Email or phone">
+
+<input type="password" placeholder="Password">
+
+<button class="login">Log in</button>
+
+<a href="#">Forgotten password?</a>
+
+<hr>
+
+<button class="create">Create new account</button>
+
+ </div>
+
+
+
+</div>
+
+</body>
+
+</html>
