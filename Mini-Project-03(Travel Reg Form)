@@ -1,0 +1,147 @@
+<html>
+
+<head>
+
+<title>Travel Form</title>
+
+<style>
+
+body{
+
+font-family:Arial;
+
+background:#f2f2f2;
+
+text-align:center;
+
+}
+
+form{
+
+width:400px;
+
+margin:40px auto;
+
+background:white;
+
+padding:20px;
+
+border-radius:8px;
+
+box-shadow:0 0 8px #aaa;
+
+}
+
+fieldset{
+
+border:2px solid #4CAF50;
+
+padding:20px;
+
+}
+
+legend{
+
+color:#4CAF50;
+
+font-size:20px;
+
+font-weight:bold;
+
+}
+
+label{
+
+display:block;
+
+text-align:left;
+
+margin-top:10px;
+
+}
+
+input{
+
+width:90%;
+
+padding:8px;
+
+margin-top:5px;
+
+}
+
+button{
+
+margin-top:15px;
+
+padding:10px 20px;
+
+background:#4CAF50;
+
+color:white;
+
+border:none;
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<form>
+
+<fieldset>
+
+<legend>Travel Reg Form</legend>
+
+<label>From</label>
+
+<input type="text">
+
+<label>To</label>
+
+<input type="text">
+
+<label>Date</label>
+
+<input type="date">
+
+<label>First Name</label>
+
+<input type="text">
+
+<label>Last Name</label>
+
+<input type="text">
+
+<label>Gender</label>
+
+<input type="radio" name="g"> Male
+
+<input type="radio" name="g"> Female
+
+<input type="radio" name="g"> Others
+
+<label>Age</label>
+
+<input type="number">
+
+<label>Contact</label>
+
+<input type="number">
+
+<label>Email</label>
+
+<input type="text">
+
+<button>Register</button>
+
+</fieldset>
+
+</form>
+
+</body>
+
+</html>
